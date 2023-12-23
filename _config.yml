@@ -11,29 +11,27 @@ description: "A non-profit free tutoring organization for K-12 education, with t
 people:
 - name: Paaras Purohit
   pic: 1
-  position: Lead Developer, Communications Director
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  position: Lead Developer, Director of Outreach
 
-- name: Larry Parker
+- name: Emaad Mir
   pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  position: President
 
-- name: Diana Petersen
+- name: Dinesh Sahai
   pic: 3
-  position: Lead Developer
+  position: Senior Administrator, Event Coordinator
+
+- name: Swarith
+  pic: 1
+  position: Senior Administrator, Tutor Coordinator
+
+- name: Ankit
+  pic: 2
+  position: Administration Management, Developer
+
+- name: Rishi
+  pic: 3
+  position: Director of Marketing
   social:
     - title: twitter
       url: #
