@@ -1,17 +1,17 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: https://paaraspurohit.github.io
+baseurl: /blue-owl-tutoring-site/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Blue Owl Tutoring
+email: blueowltutoringc@gmail.com
+description: "A non-profit free tutoring organization for K-12 education, with the mission of making academic success accessible to everyone."
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Paaras Purohit
   pic: 1
-  position: Lead Designer
+  position: Lead Developer, Communications Director
   social:
     - title: twitter
       url: #
