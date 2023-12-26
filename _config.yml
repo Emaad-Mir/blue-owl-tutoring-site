@@ -22,23 +22,16 @@ people:
   position: Senior Administrator, Event Coordinator
 
 - name: Swarith Vaddi
-  pic: 1
+  pic: 4
   position: Senior Administrator, Tutor Coordinator
 
 - name: Ankit Pulivendula
-  pic: 2
+  pic: 5
   position: Administration Management, Developer
 
 - name: Rishi Bansal
-  pic: 3
+  pic: 6
   position: Director of Marketing
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
