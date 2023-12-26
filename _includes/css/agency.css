@@ -71,14 +71,23 @@ h6 {
 
 .bg-img-first {
     background-image: url('{{ site.baseurl }}/img/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .bg-img-second {
     background-image: url('{{ site.baseurl }}/img/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .bg-img-third {
     background-image: url('{{ site.baseurl }}/img/bg3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .btn-primary {
