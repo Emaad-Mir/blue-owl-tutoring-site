@@ -69,6 +69,18 @@ h6 {
     background-color: #222;
 }
 
+.bg-img-first {
+    background-image: url('{{ site.baseurl }}/img/bg1.jpg');
+}
+
+.bg-img-second {
+    background-image: url('{{ site.baseurl }}/img/bg2.jpg');
+}
+
+.bg-img-third {
+    background-image: url('{{ site.baseurl }}/img/bg3.jpg');
+}
+
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
