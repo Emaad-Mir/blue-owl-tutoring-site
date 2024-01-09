@@ -101,7 +101,7 @@ h6 {
 .bol-img {
     width:50%;
     opacity: 0;
-    animation: fadeInFromLeft 1.5s ease-out forwards;
+    animation: fadeInFromLeft 3s ease-out forwards;
 }
 
 @keyframes fadeInFromLeft {
