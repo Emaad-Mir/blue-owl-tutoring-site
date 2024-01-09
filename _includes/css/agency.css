@@ -91,7 +91,11 @@ h6 {
 }
 
 .bg-signup {
-    background-color: #F29829;
+    background-color: #72CEF2;
+}
+
+.bg-about {
+    background-color: #DCE4F2;
 }
 
 .btn-primary {
