@@ -107,7 +107,7 @@ h6 {
 @keyframes fadeInFromLeft {
     from {
         opacity: 0;
-        transform: translateX(-25%);
+        transform: translateX(-100%);
     }
     to {
         opacity: 1;
