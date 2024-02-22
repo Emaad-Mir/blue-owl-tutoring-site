@@ -45,14 +45,48 @@
 
     <!-- Header -->
     <header>
-        <div class="container">
-            <div class="intro-text">
-                <img class="bol-img" src="{{ site.baseurl }}/img/bol-logo.png">
-                <div class="intro-lead-in"></div>
-                <div class="intro-heading"></div>
-                <!---<a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>-->
+        <link rel="stylesheet" href="{{ site.baseurl }}/_includes/css/landing.css">
+        <div class="mainbox">
+        <div class="splitboxes">
+            <div class="leftbox">
+            <h1>
+                <span>Ziplining</span><br /> Towards a<br /> Better Future
+            </h1>
+            <p>
+                We empower a global community of learners<br />to <span>explore</span> and <span>innovate</span> beyond the conventional curriculum.
+            </p>
+            <a href="/events">
+                <button>Upcoming Events</button>
+            </a>
+            <button onclick="scrollDown()">Learn More</button>
+            </div>
+            <div class="rightbox">
+            <img src="./mountains.gif" alt="mountains">
             </div>
         </div>
+        </div>
+        <div class="logobanner">
+        <div class="container">
+            <div class="label">we have been supported by</div>
+            <div class="logogrid">
+            <!-- Add your sponsor images with appropriate URLs here -->
+            </div>
+        </div>
+        </div>
+        <div class="mainboxmobile">
+        <div class="contentbox">
+            <h1>
+            <span>Ziplining</span><br /> Towards a<br /> Better Future
+            </h1>
+            <p>
+            We connect students to <span>technology</span><br />and <span>business</span> knowledge.
+            </p>
+            <a href="/events">
+            <button>Upcoming Events</button>
+            </a>
+            <button onclick="scrollDown()">Learn More</button>
+        </div>
+        </div>        
     </header>
 <!--
         {% for page in site.pages %}
