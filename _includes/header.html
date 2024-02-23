@@ -45,18 +45,35 @@
 
     <!-- Header -->
     <header>
-        <table>
-            <tr>
-                <td class="text-container">
-                    <div>
-                        <p>Non-Profit Free Tutoring</p>
-                    </div>
-                </td>
-                <td>
-                    <img class="bol-img" src="{{ site.baseurl }}/img/bol-logo.png">
-                </td>
-            </tr>
-        </table>
+          <div class="mainbox">
+            <div class="splitboxes">
+              <div class="leftbox">
+                <h1>
+                  <span>Blue Owl</span> <br> Learning
+                </h1>
+                <p>
+                  We are a <span>non-profit</span> and <span>free tutoring</span> organization.
+                </p>
+              </div>
+              <div class="rightbox">
+                <img class="bol-img" src="{{ site.baseurl }}/img/bol-logo.png"> 
+              </div>
+            </div>
+          </div>
+          <div class="mainboxmobile">
+            <div class="contentbox">
+              <h1>
+                We are <br><span>Blue Owl</span>
+              </h1>
+              <p>
+                We connect students to <span>technology</span><br />and <span>business</span> knowledge.
+              </p>
+              <a href="/events">
+                <button>Upcoming Events</button>
+              </a>
+            </div>
+          </div>
+        
     </header>
 <!--
         {% for page in site.pages %}

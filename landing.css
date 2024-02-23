@@ -1,0 +1,185 @@
+.mainboxmobile {
+  display: none;
+}
+
+.mainbox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainbox .splitboxes {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+.mainbox .leftbox {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.mainbox .leftbox h1 {
+  font-size: 80px;
+  font-weight: normal;
+  margin: 0;
+}
+.mainbox .leftbox h1 span {
+  background: linear-gradient(to right, #101e6b, #73c2fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mainbox .leftbox p {
+  font-size: 25px;
+}
+.mainbox .leftbox p span {
+  color: #37d1de;
+  font-weight: bold;
+}
+.mainbox .leftbox button:nth-child(odd) {
+  width: 180px;
+  height: 46px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background: #9035eb;
+  box-shadow: 8px 7px 15px 5px rgba(144, 53, 235, 0.25);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  transition: 0.3s;
+}
+.mainbox .leftbox button:nth-child(odd):hover {
+  background: #37d1de;
+  box-shadow: 8px 7px 15px 5px rgba(55, 209, 222, 0.25);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.mainbox .leftbox button:nth-child(even) {
+  width: 180px;
+  height: 46px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #9035eb;
+  border: 3px solid #9035eb;
+  box-sizing: border-box;
+  box-shadow: 8px 7px 15px 5px rgba(144, 53, 235, 0.15);
+  border-radius: 30px;
+  outline: none;
+  margin-left: 40px;
+}
+.mainbox .leftbox button:nth-child(even):hover {
+  color: #37d1de;
+  border: 3px solid #37d1de;
+  box-shadow: 8px 7px 15px 5px rgba(55, 209, 222, 0.25);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.mainbox .rightbox {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.mainbox .rightbox img {
+  width: 700px;
+}
+
+.label {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+.logobanner {
+  padding-top: 15px;
+}
+.logobanner .logogrid {
+  display: flex;
+  grid-template-columns: repeat(5, 175px);
+  grid-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.logobanner .logogrid img {
+  width: 100px;
+}
+.logobanner .logogrid .fixlogo {
+  width: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+  .mainbox {
+    display: none;
+  }
+  .logobanner {
+    display: none;
+  }
+  .mainboxmobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainboxmobile .contentbox {
+    margin-top: 160px;
+  }
+  .mainboxmobile .contentbox h1 {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+  }
+  .mainboxmobile .contentbox h1 span {
+    color: #9035eb;
+  }
+  .mainboxmobile .contentbox p {
+    font-size: 15px;
+  }
+  .mainboxmobile .contentbox p span {
+    color: #37d1de;
+    font-weight: bold;
+  }
+  .mainboxmobile .contentbox button:nth-child(odd) {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+    background: #9035eb;
+    box-shadow: 8px 7px 15px 5px rgba(144, 53, 235, 0.25);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+  }
+  .mainboxmobile .contentbox button:nth-child(odd):hover {
+    background: #37d1de;
+    box-shadow: 8px 7px 15px 5px rgba(55, 209, 222, 0.25);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .mainboxmobile .contentbox button:nth-child(even) {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #9035eb;
+    border: 3px solid #9035eb;
+    box-sizing: border-box;
+    box-shadow: 8px 7px 15px 5px rgba(144, 53, 235, 0.15);
+    border-radius: 30px;
+    outline: none;
+    margin-left: 40px;
+  }
+  .mainboxmobile .contentbox button:nth-child(even):hover {
+    color: #37d1de;
+    border: 3px solid #37d1de;
+    box-shadow: 8px 7px 15px 5px rgba(55, 209, 222, 0.25);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=landing.css.map */
